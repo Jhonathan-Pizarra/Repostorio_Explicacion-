@@ -1,0 +1,58 @@
+.class{
+
+
+}
+
+#id{
+
+}
+
+label{
+	color: rgb(255,0,0);
+
+
+}
+
+input{
+	border:2px solid red; /*cambiaran todos los imput*/
+
+}
+/*si queremos afectar a unos elementos, podemos agregar reglas especiales: */
+
+input[type=text]{
+	border: 2px solid green;  /*cambiara a verde solo los cuadros de texto, de tipo texto, no e-mail, no areas... solo texto*/
+}
+
+¨/*Expresiones regulares : son patrones, formas en las que podemos filtrar texto que cumpla con algun patrón, por ejemplo
+^=t le decimos a los que empiecen con t: text y tel (osea de telefono), entonces a esatas les aplica esa regale
+todo lo que contenga una t en su name o en su type seran afectados */
+
+
+/*Podemos hacer que una fila se resalte: */
+
+tr{
+	background-color: #ff0000;
+}
+
+
+tr:hover{
+
+	background-color: #ffffff;
+}
+
+/*A los botones que tengan la clase btn, osea si tengo un input o algo con que no sea boton, pero que si tenga la clase btn no se vana afectar*/
+
+button.btn{
+	background-color: #00ff00;
+	border: 1px solid #E9E9E9;
+	width: 80px;
+	height: 30px;
+	padding: 15px;
+
+}
+
+/*CUANDO Queremos que pase el mouse por encima*/
+button.btn:hover{
+	background-color: blue;
+	border-color: rgb(255,0,0);
+}
