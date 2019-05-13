@@ -1,0 +1,25 @@
+el # es la conexion al servidor, es decir como esta el numeral se reenvia al formulario
+cuando tengamos un servidor lo conectaremos
+
+-----------------------------
+
+el type siempre debe estar el en link, de hecho debe tener siempre
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+---------------
+
+si queremos afectar a unos elementos, podemos agregar reglas especiales
+
+----------------
+
+¿Por que son en casacada?
+coje uno y si encuientra otro se aplica el ultimo estilo
+las va leyendo en el orden que estan y va aplicando las reglas en el orden que estan
+todo lo demas se va barriendo.
+
+silabo
+clase 4
+crear repo
+clonar
+trabjar sobre ese
+subir los cambios
